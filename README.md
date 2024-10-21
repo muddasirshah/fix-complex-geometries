@@ -4,7 +4,7 @@
 This repository contains two Python scripts designed for processing shapefiles:
 
 1. **Polygon Splitter**: This script splits polygons with a vertex count greater than or equal to 500 while retaining their properties in the output file.
-2. **Polygon Simplifier**: This script simplifies geometries in a shapefile by reducing the vertex count of polygons while preserving their shape.
+2. **Polygon Simplifier**: This script simplifies geometries in a shapefile by reducing the vertex count of polygons while preserving their shape using Ramer-Douglas-Peucker algorithm.
 
 Both scripts leverage the powerful `geopandas` library, along with `shapely` for geometric operations and `tqdm` for progress visualization.
 
